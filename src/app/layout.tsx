@@ -5,8 +5,19 @@ import { Toaster } from "@/components/ui/toaster";
 import { SpaceAnimation } from '@/components/space-animation';
 
 export const metadata: Metadata = {
-  title: 'Prince Kumar | Developer & DSA Enthusiast',
-  description: "Prince Kumar's personal portfolio. A full stack developer and problem solver.",
+  title: "Princefolio - Prince Kumar | Full Stack Developer",
+  description: "Explore Prince Kumar’s portfolio – Full Stack Developer (MERN Stack), DSA enthusiast with 2+ years of experience and 20+ completed freelance projects.",
+  keywords: [
+    "Princefolio",
+    "Prince Kumar",
+    "Prince Portfolio",
+    "Prince Web Developer",
+    "Prince Full Stack Developer",
+    "MERN Developer",
+    "Freelance Web Developer",
+    "DSA Expert",
+    "Frontend Developer",
+  ],
 };
 
 export default function RootLayout({
