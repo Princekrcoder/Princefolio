@@ -22,13 +22,13 @@ export const metadata: Metadata = {
   url: "https://princefolio-iota.vercel.app",
   siteName: "Princefolio",
   images: [
-    {
-      url: "https://princefolio-iota.vercel.app/og-image.png", // ✅ Absolute URL
-      width: 1200,
-      height: 630,
-      alt: "Princefolio Banner",
-    },
-  ],
+  {
+    url: "https://princefolio-iota.vercel.app/og-image-v2.png", // ✅ use new version
+    width: 1200,
+    height: 630,
+    alt: "Princefolio Banner",
+  },
+],
   type: "website",
 },
 twitter: {
@@ -36,6 +36,7 @@ twitter: {
   title: "Princefolio - Prince Kumar | Full Stack Developer",
   description:
     "Visit Prince Kumar’s portfolio website – MERN Developer & DSA Enthusiast with 600+ problems solved.",
-  images: ["https://princefolio-iota.vercel.app/og-image.png"], // ✅ Absolute URL
+ images: ["https://princefolio-iota.vercel.app/og-image-v2.png"],
+ // ✅ Absolute URL
 },
 };
