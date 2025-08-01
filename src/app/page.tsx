@@ -10,34 +10,6 @@ import { DiscordIcon } from '@/components/icons/discord-icon';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 
-export default function Home() {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow">
-        <HeroSection />
-        <AboutSection />
-        <ServicesSection />
-        <SkillsSection />
-        <ProjectsSection />
-      </main>
-      <Footer />
-      <TooltipProvider>
-        <Tooltip>
-          <TooltipTrigger asChild>
-             <Link href="https://discord.gg/vnD58kAN" target="_blank" rel="noopener noreferrer" aria-label="Join my Discord" className="fixed bottom-8 right-8 z-50 text-primary transition-transform duration-300 hover:scale-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring">
-              <DiscordIcon className="h-10 w-10" />
-            </Link>
-          </TooltipTrigger>
-          <TooltipContent side="left" sideOffset={10}>
-            <p>Join my Discord</p>
-          </TooltipContent>
-        </Tooltip>
-      </TooltipProvider>
-    </div>
-  );
-}
-
 function HeroSection() {
   return (
     <section className="container mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 py-20 text-center md:py-32">
@@ -67,6 +39,36 @@ function HeroSection() {
     </section>
   );
 }
+
+export default function Home() {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow">
+        <HeroSection />
+        <AboutSection />
+        <ServicesSection />
+        <SkillsSection />
+        <ProjectsSection />
+      </main>
+      <Footer />
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+             <Link href="https://discord.gg/vnD58kAN" target="_blank" rel="noopener noreferrer" aria-label="Join my Discord" className="fixed bottom-8 right-8 z-50 text-primary transition-transform duration-300 hover:scale-125 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+              <DiscordIcon className="h-10 w-10" />
+            </Link>
+          </TooltipTrigger>
+          <TooltipContent side="left" sideOffset={10}>
+            <p>Join my Discord</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+    </div>
+  );
+}
+
+
 
 function AboutSection() {
     return (
