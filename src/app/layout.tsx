@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   keywords: [
     "Princefolio",
     "Prince Kumar",
+    "prince kumar portfolio",
     "Princekrcoder",
     "princekrcoder",
     "Prince Portfolio",
