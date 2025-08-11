@@ -5,9 +5,9 @@ import { Toaster } from "@/components/ui/toaster";
 import { SpaceAnimation } from '@/components/space-animation';
 
 export const metadata: Metadata = {
-  title: "Princefolio - Prince Kumar | Full Stack Developer",
+  title: "Princefolio - Prince Kumar | Prince Portfolio | Full Stack Developer",
  description:
-  "Prince Kumar’s portfolio – Full Stack MERN Developer & DSA Enthusiast with 600+ problems solved, 20+ freelance projects, and 2+ years of experience.",
+ "Prince Portfolio – Prince Kumar’s portfolio as a Full Stack MERN Developer & DSA Enthusiast with 600+ problems solved, 20+ freelance projects, and 2+ years of experience.",
   keywords: [
     "Princefolio",
     "Prince Kumar",
