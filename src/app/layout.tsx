@@ -55,6 +55,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark !scroll-smooth">
       <head>
+        <meta name="keywords" content="Princefolio, Prince Kumar, prince kumar portfolio, Princekrcoder, MERN Developer, DSA Expert, Frontend Developer" />
+        <link rel="canonical" href="https://princefolio-iota.vercel.app" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{
   __html: JSON.stringify({
     "@context": "https://schema.org",
