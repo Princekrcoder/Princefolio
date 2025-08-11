@@ -6,8 +6,8 @@ import { SpaceAnimation } from '@/components/space-animation';
 
 export const metadata: Metadata = {
   title: "Princefolio - Prince Kumar | Full Stack Developer",
-  description:
-    "Explore Prince Kumar’s portfolio – Full Stack Developer (MERN Stack), DSA enthusiast with 2+ years of experience and 20+ completed freelance projects.",
+ description:
+  "Prince Kumar’s portfolio – Full Stack MERN Developer & DSA Enthusiast with 600+ problems solved, 20+ freelance projects, and 2+ years of experience.",
   keywords: [
     "Princefolio",
     "Prince Kumar",
